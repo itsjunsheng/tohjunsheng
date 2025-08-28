@@ -4,9 +4,11 @@ import ScrollFloat from '../components/ScrollFloat/ScrollFloat';
 
 import aisg1 from "../assets/work/aisg1.jpg";
 import aisg2 from "../assets/work/aisg2.jpg";
+import aisg3 from "../assets/work/aisg3.jpg";
 
 export const Work = () => {
-  const aisgImages = [aisg1, aisg2];
+  const aisgImages = [aisg1, aisg2, aisg3];
+  const certisImages = [aisg1]; 
 
   return (
     <section id="work" className="relative z-10 py-20 px-6 lg:px-20">
@@ -25,7 +27,7 @@ export const Work = () => {
         {/* Certis CISCO Card */}
         <div className="card-shine p-6 bg-gray-900 rounded-2xl border border-gray-800 hover:border-gray-600 hover:bg-gradient-to-br hover:from-gray-900 hover:to-gray-800 transition duration-300">
           <div className="grid gap-6 lg:grid-cols-[minmax(360px,400px)_1fr] items-start">
-            <ImageCarousel images={aisgImages} alt="Certis" />
+            <ImageCarousel images={certisImages} alt="Certis" />
 
               <section className="text-gray-300 space-y-3">
               <h3 className="flex items-center gap-2 text-xl font-bold text-blue-600 -mt-2">

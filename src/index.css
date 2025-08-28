@@ -4,6 +4,7 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
+/* Starry Background Animation */
 .star {
   position: absolute;
   background-color: white;

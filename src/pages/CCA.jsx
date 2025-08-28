@@ -2,17 +2,24 @@ import { Users } from "lucide-react";
 import ImageCarousel from "../components/ImageCarousel";
 import ScrollFloat from '../components/ScrollFloat/ScrollFloat';
 
-import ignite1 from "../assets/cca/ignite1.jpg";
-import ignite2 from "../assets/cca/ignite2.jpg";
-import karate1 from "../assets/cca/karate1.jpg";
-import spotp1 from "../assets/cca/spotp1.jpg";
-import vm1 from "../assets/cca/vm1.jpg";
+import spkc1 from "../assets/cca/spkc/spkc1.jpg";
+import spkc2 from "../assets/cca/spkc/spkc2.jpg";
+import spkc3 from "../assets/cca/spkc/spkc3.jpg";
+import spkc4 from "../assets/cca/spkc/spkc4.jpg";
+import spkc5 from "../assets/cca/spkc/spkc5.jpg";
+import spkc6 from "../assets/cca/spkc/spkc6.jpg";
+import spot1 from "../assets/cca/spot/spot1.jpg";
+import exco1 from "../assets/cca/wscexco/exco1.jpg";
+import igc1 from "../assets/cca/wscigc/igc1.jpg";
+import vm1 from "../assets/cca/wscvm/vm1.jpg";
+
 
 export const CCA = () => {
-  const igniteImages = [ignite1, ignite2];
+  const excoImages = [exco1];
+  const igcImages = [igc1];
   const vmImages = [vm1];
-  const spotpImages = [spotp1];
-  const karateImages = [karate1];
+  const spotImages = [spot1];
+  const spkcImages = [spkc1, spkc2, spkc3, spkc4, spkc5, spkc6];
 
   return (
     <section id="cca" className="relative z-10 py-20 px-6 lg:px-20">
@@ -31,7 +38,7 @@ export const CCA = () => {
         {/* WSC EXCO card */}
         <div id="wscexco" className="scroll-mt-24 card-shine p-6 bg-gray-900 rounded-2xl border border-gray-800 hover:border-gray-600 hover:bg-gradient-to-br hover:from-gray-900 hover:to-gray-800 transition duration-300">
           <div className="grid gap-6 lg:grid-cols-[minmax(360px,400px)_1fr] items-start">
-            <ImageCarousel images={igniteImages} alt="Ignite Change" />
+            <ImageCarousel images={excoImages} alt="Welfare Services Club Executive Committee" />
 
             <section className="text-gray-300 space-y-3">
               <h3 className="flex items-center gap-2 text-xl font-bold text-blue-600 -mt-2">
@@ -60,7 +67,7 @@ export const CCA = () => {
         {/* WSC IGC card */}
         <div id="wscigc" className="scroll-mt-24 card-shine p-6 bg-gray-900 rounded-2xl border border-gray-800 hover:border-gray-600 hover:bg-gradient-to-br hover:from-gray-900 hover:to-gray-800 transition duration-300">
           <div className="grid gap-6 lg:grid-cols-[minmax(360px,400px)_1fr] items-start">
-            <ImageCarousel images={igniteImages} alt="Ignite Change" />
+            <ImageCarousel images={igcImages} alt="Ignite Change" />
 
             <section className="text-gray-300 space-y-3">
               <h3 className="flex items-center gap-2 text-xl font-bold text-blue-600 -mt-2">
@@ -89,7 +96,7 @@ export const CCA = () => {
         {/* WSC VM card */}
         <div id="wscvm" className="scroll-mt-24 card-shine p-6 bg-gray-900 rounded-2xl border border-gray-800 hover:border-gray-600 hover:bg-gradient-to-br hover:from-gray-900 hover:to-gray-800 transition duration-300">
           <div className="grid gap-6 lg:grid-cols-[minmax(360px,400px)_1fr] items-start">
-            <ImageCarousel images={igniteImages} alt="Ignite Change" />
+            <ImageCarousel images={vmImages} alt="Volunteer Movement" />
 
             <section className="text-gray-300 space-y-3">
               <h3 className="flex items-center gap-2 text-xl font-bold text-blue-600 -mt-2">
@@ -115,7 +122,7 @@ export const CCA = () => {
         {/* SPOT Programme card */}
         <div id="spot" className="scroll-mt-24 card-shine p-6 bg-gray-900 rounded-2xl border border-gray-800 hover:border-gray-600 hover:bg-gradient-to-br hover:from-gray-900 hover:to-gray-800 transition duration-300">
           <div className="grid gap-6 lg:grid-cols-[minmax(360px,400px)_1fr] items-start">
-            <ImageCarousel images={igniteImages} alt="Ignite Change" />
+            <ImageCarousel images={spotImages} alt="SP Outstanding Talent Programme" />
 
             <section className="text-gray-300 space-y-3">
               <h3 className="flex items-center gap-2 text-xl font-bold text-blue-600 -mt-2">
@@ -141,7 +148,7 @@ export const CCA = () => {
         {/* SP Karate card */}
         <div id="spkc" className="scroll-mt-24 card-shine p-6 bg-gray-900 rounded-2xl border border-gray-800 hover:border-gray-600 hover:bg-gradient-to-br hover:from-gray-900 hover:to-gray-800 transition duration-300">
           <div className="grid gap-6 lg:grid-cols-[minmax(360px,400px)_1fr] items-start">
-            <ImageCarousel images={igniteImages} alt="Ignite Change" />
+            <ImageCarousel images={spkcImages} alt="SP Karate Club" />
 
             <section className="text-gray-300 space-y-3">
               <h3 className="flex items-center gap-2 text-xl font-bold text-blue-600 -mt-2">

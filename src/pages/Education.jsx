@@ -2,14 +2,16 @@ import { GraduationCap } from "lucide-react";
 import ImageCarousel from "../components/ImageCarousel";
 import ScrollFloat from '../components/ScrollFloat/ScrollFloat';
 
-import ntu1 from "../assets/edu/ntu1.jpg";
-import ntu2 from "../assets/edu/ntu2.jpg";
-import sp1 from "../assets/edu/sp1.jpg";
-import sp2 from "../assets/edu/sp2.jpg";
+import ntu1 from "../assets/education/ntu/ntu1.jpg";
+import sp1 from "../assets/education/sp/sp1.jpg";
+import sp2 from "../assets/education/sp/sp2.jpg";
+import sp3 from "../assets/education/sp/sp3.jpg";
+import sp4 from "../assets/education/sp/sp4.jpg";
+import sp5 from "../assets/education/sp/sp5.jpg";
 
 export const Education = () => {
-  const ntuImages = [ntu1, ntu2];
-  const spImages = [sp1, sp2];
+  const ntuImages = [ntu1];
+  const spImages = [sp1, sp2, sp3, sp4, sp5];
 
   const scrollTo = (id) => {
     const el = document.getElementById(id);
