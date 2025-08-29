@@ -1,4 +1,23 @@
-import { Github, Instagram, Linkedin, Mail, MapPin } from "lucide-react";
+import { Github, Linkedin, Mail, MapPin, Send } from "lucide-react";
+
+const socialLinks = [
+  {
+    href: "https://github.com/itsjunsheng",
+    icon: <Github className="h-5 w-5" />,
+  },
+  {
+    href: "https://www.linkedin.com/in/tohjunsheng/",
+    icon: <Linkedin className="h-5 w-5" />,
+  },
+  {
+    href: "mailto:itsjunsheng@gmail.com",
+    icon: <Mail className="h-5 w-5" />,
+  },
+  {
+    href: "https://t.me/itsjunsheng",
+    icon: <Send className="h-5 w-5" />,
+  },
+];
 
 export const Footer = () => {
   return (
@@ -7,39 +26,20 @@ export const Footer = () => {
 
         {/* Social Icons */}
         <div className="flex gap-6">
-          <a
-            href="https://github.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-gray-400 transition-colors"
-          >
-            <Github size={20} />
-          </a>
-          <a
-            href="https://linkedin.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-gray-400 transition-colors"
-          >
-            <Linkedin size={20} />
-          </a>
-          <a
-            href="mailto:itsjunsheng@gmail.com"
-            className="hover:text-gray-400 transition-colors"
-          >
-            <Mail size={20} />
-          </a>
-          <a
-            href="https://instagram.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-gray-400 transition-colors"
-          >
-            <Instagram size={20} />
-          </a>
+          {socialLinks.map((item, index) => (
+            <a
+              key={index}
+              href={item.href}
+              target={item.href.startsWith("http") ? "_blank" : undefined}
+              rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined}
+              className="hover:text-gray-400 transition-colors"
+            >
+              {item.icon}
+            </a>
+          ))}
         </div>
 
-        {/* Email + Location side by side */}
+        {/* Email + Location */}
         <div className="flex gap-6 text-gray-400">
           <p className="flex items-center gap-2">
             <Mail size={16} /> itsjunsheng@gmail.com
