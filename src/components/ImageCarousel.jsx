@@ -11,10 +11,26 @@ export default function ImageCarousel({ images, alt = "gallery", customClass = "
 
   return (
     <div className="relative rounded-xl overflow-hidden border border-gray-700 bg-gray-800">
+      {/* Preload all images except the current one */}
+      {images.map((img, i) => {
+        if (i === idx) return null;
+        return (
+          <link
+            key={`preload-${i}`}
+            rel="preload"
+            as="image"
+            href={img}
+            imagesrcset={img}
+          />
+        );
+      })}
+
       <img
         src={images[idx]}
         alt={`${alt} ${idx + 1}`}
         className={`w-full object-cover ${customClass || "aspect-[4/3] max-h-80"}`}
+        loading="eager"
+        decoding="async"
       />
 
       {/* Navigation buttons */}
@@ -49,4 +65,3 @@ export default function ImageCarousel({ images, alt = "gallery", customClass = "
     </div>
   );
 }
-
