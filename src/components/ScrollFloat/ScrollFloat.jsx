@@ -9,11 +9,11 @@ const ScrollFloat = ({
   scrollContainerRef,
   containerClassName = "",
   textClassName = "",
-  animationDuration = 1,
+  animationDuration = 1.5,
   ease = "back.inOut(2)",
   scrollStart = "center bottom+=50%",
   scrollEnd = "bottom bottom-=40%",
-  stagger = 0.03,
+  stagger = 0.05,
 }) => {
   const containerRef = useRef(null);
 
@@ -76,7 +76,7 @@ const ScrollFloat = ({
   return (
     <h2
       ref={containerRef}
-      className={`text-4xl font-extrabold tracking-wide text-center mb-6 ${containerClassName}`}
+      className={`text-3xl lg:text-4xl font-extrabold tracking-wide text-center mb-6 ${containerClassName}`}
     >
       <span className={`inline-block leading-snug ${textClassName}`}>
         {splitText}

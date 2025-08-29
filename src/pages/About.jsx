@@ -15,13 +15,13 @@ export const About = () => {
   ];
 
   return (
-    <section id="about" className="relative z-10 py-20 px-6 lg:px-20">
-      <div className="max-w-6xl mx-auto rounded-2xl border border-gray-800 bg-gray-900/95 hover:bg-gradient-to-br hover:from-gray-900 hover:to-gray-800 transition duration-300 shadow-xl">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center px-6 lg:px-10 py-8">
+    <section id="about" className="relative z-10 py-12 px-8 lg:px-30">
+      <div className="rounded-2xl bg-gray-900 border border-gray-800 hover:bg-gradient-to-br hover:from-gray-900 hover:to-gray-800 transition duration-300">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center p-5 lg:p-8">
           
           {/* Left: About Text */}
           <div>
-            <h2 className="text-4xl font-extrabold tracking-wide text-white mb-4">
+            <h2 className="text-3xl lg:text-4xl font-extrabold tracking-wide text-white mb-4">
               About Me
             </h2>
             <p className="text-gray-300 text-md leading-relaxed mb-6">
@@ -32,17 +32,17 @@ export const About = () => {
             <div className="flex flex-wrap gap-2">
               {[
                 "Python",
-                "Artificial Intelligence",
+                "AI",
                 "Machine Learning",
-                "Data Analytics",
-                "Web Development",
+                "Software Engineering",
                 "React",
-                "Vercel",
-                "Git/GitHub",
+                "Git/GitHub",                
+                "Data Analytics",
+                "Statistics",
               ].map((skill, index) => (
                 <span
                   key={index}
-                  className="bg-gray-800 text-gray-200 px-3 py-1 rounded-full text-sm font-medium hover:bg-blue-600 transition"
+                  className="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium hover:bg-blue-600 transition"
                 >
                   {skill}
                 </span>
