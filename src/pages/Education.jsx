@@ -4,15 +4,18 @@ import PortfolioCard from "../components/PortfolioCard";
 import SectionCard from "../components/SectionCard";
 
 import ntu1 from "../assets/education/ntu/ntu1.jpg";
+import ntu2 from "../assets/education/ntu/ntu2.jpg";
+
 import sp1 from "../assets/education/sp/sp1.jpg";
 import sp2 from "../assets/education/sp/sp2.jpg";
 import sp3 from "../assets/education/sp/sp3.jpg";
 import sp4 from "../assets/education/sp/sp4.jpg";
 import sp5 from "../assets/education/sp/sp5.jpg";
+import sp6 from "../assets/education/sp/sp6.jpg";
 
 export const Education = () => {
-  const ntuImages = [ntu1];
-  const spImages = [sp1, sp2, sp3, sp4, sp5];
+  const ntuImages = [ntu1, ntu2];
+  const spImages = [sp1, sp2, sp3, sp4, sp5, sp6];
 
   const scrollTo = (id) => {
     const el = document.getElementById(id);
@@ -20,9 +23,9 @@ export const Education = () => {
   };
 
   const ntuCcaLinks = [
-    { id: "wscexco", label: "WSC ExCo" },
-    { id: "wscigc", label: "WSC Ignite Change" },
-    { id: "wscvm", label: "WSC Volunteer Movement" },
+    { id: "wsc", label: "WSC ExCo" },
+    { id: "igc", label: "WSC Ignite Change" },
+    { id: "vm", label: "WSC Volunteer Movement" },
   ];
 
   const spCcaLinks = [

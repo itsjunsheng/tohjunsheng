@@ -3,6 +3,39 @@ import ImageCarousel from "../components/ImageCarousel";
 import PortfolioCard from "../components/PortfolioCard";
 import SectionCard from "../components/SectionCard";
 
+import wsc1 from "../assets/cca/wsc/wsc1.jpg";
+import wsc2 from "../assets/cca/wsc/wsc2.jpg";
+import wsc3 from "../assets/cca/wsc/wsc3.jpg";
+import wsc4 from "../assets/cca/wsc/wsc4.jpg";
+import wsc5 from "../assets/cca/wsc/wsc5.jpg";
+import wsc6 from "../assets/cca/wsc/wsc6.jpg";
+import wsc7 from "../assets/cca/wsc/wsc7.jpg";
+import wsc8 from "../assets/cca/wsc/wsc8.jpg";
+import wsc9 from "../assets/cca/wsc/wsc9.jpg";
+
+import igc1 from "../assets/cca/igc/igc1.jpg";
+import igc10 from "../assets/cca/igc/igc10.jpg";
+import igc11 from "../assets/cca/igc/igc11.jpg";
+import igc12 from "../assets/cca/igc/igc12.jpg";
+import igc2 from "../assets/cca/igc/igc2.jpg";
+import igc3 from "../assets/cca/igc/igc3.jpg";
+import igc4 from "../assets/cca/igc/igc4.jpg";
+import igc5 from "../assets/cca/igc/igc5.jpg";
+import igc6 from "../assets/cca/igc/igc6.jpg";
+import igc7 from "../assets/cca/igc/igc7.jpg";
+import igc8 from "../assets/cca/igc/igc8.jpg";
+import igc9 from "../assets/cca/igc/igc9.jpg";
+
+import vm1 from "../assets/cca/vm/vm1.jpg";
+import vm2 from "../assets/cca/vm/vm2.jpg";
+import vm3 from "../assets/cca/vm/vm3.jpg";
+import vm4 from "../assets/cca/vm/vm4.jpg";
+import vm5 from "../assets/cca/vm/vm5.jpg";
+import vm6 from "../assets/cca/vm/vm6.jpg";
+import vm7 from "../assets/cca/vm/vm7.jpg";
+import vm8 from "../assets/cca/vm/vm8.jpg";
+import vm9 from "../assets/cca/vm/vm9.jpg";
+
 import spkc1 from "../assets/cca/spkc/spkc1.jpg";
 import spkc2 from "../assets/cca/spkc/spkc2.jpg";
 import spkc3 from "../assets/cca/spkc/spkc3.jpg";
@@ -10,23 +43,20 @@ import spkc4 from "../assets/cca/spkc/spkc4.jpg";
 import spkc5 from "../assets/cca/spkc/spkc5.jpg";
 import spkc6 from "../assets/cca/spkc/spkc6.jpg";
 import spot1 from "../assets/cca/spot/spot1.jpg";
-import exco1 from "../assets/cca/wscexco/exco1.jpg";
-import igc1 from "../assets/cca/wscigc/igc1.jpg";
-import vm1 from "../assets/cca/wscvm/vm1.jpg";
 
 export const CCA = () => {
-  const excoImages = [exco1];
-  const igcImages = [igc1];
-  const vmImages = [vm1];
+  const wscImages = [wsc1, wsc2, wsc3, wsc4, wsc5, wsc6, wsc7, wsc8, wsc9];
+  const igcImages = [igc1, igc2, igc3, igc4, igc5, igc6, igc7, igc8, igc9, igc10, igc11, igc12];
+  const vmImages = [vm1, vm2, vm3, vm4, vm5, vm6, vm7, vm8, vm9];
   const spotImages = [spot1];
   const spkcImages = [spkc1, spkc2, spkc3, spkc4, spkc5, spkc6];
 
   return (
     <PortfolioCard id="cca" title="Co-Curricular Activities">
       {/* WSC EXCO card */}
-      <div id="wscexco" className="scroll-mt-24">
+      <div id="wsc" className="scroll-mt-56">
         <SectionCard>
-          <ImageCarousel images={excoImages} alt="Welfare Services Club Executive Committee" />
+          <ImageCarousel images={wscImages} alt="Welfare Services Club Executive Committee" />
           <section className="text-gray-300 space-y-3">
             <h3 className="flex items-center gap-2 text-xl font-bold text-blue-600 -mt-2">
               <Users className="w-5 h-5" />
@@ -52,7 +82,7 @@ export const CCA = () => {
       </div>
 
       {/* WSC IGC card */}
-      <div id="wscigc" className="scroll-mt-24">
+      <div id="igc" className="scroll-mt-56">
         <SectionCard>
           <ImageCarousel images={igcImages} alt="Ignite Change" />
           <section className="text-gray-300 space-y-3">
@@ -80,7 +110,7 @@ export const CCA = () => {
       </div>
 
       {/* WSC VM card */}
-      <div id="wscvm" className="scroll-mt-24">
+      <div id="vm" className="scroll-mt-56">
         <SectionCard>
           <ImageCarousel images={vmImages} alt="Volunteer Movement" />
           <section className="text-gray-300 space-y-3">
@@ -105,7 +135,7 @@ export const CCA = () => {
       </div>
 
       {/* SPOT Programme card */}
-      <div id="spot" className="scroll-mt-24">
+      <div id="spot" className="scroll-mt-56">
         <SectionCard>
           <ImageCarousel images={spotImages} alt="SP Outstanding Talent Programme" />
           <section className="text-gray-300 space-y-3">
@@ -130,7 +160,7 @@ export const CCA = () => {
       </div>
 
       {/* SP Karate card */}
-      <div id="spkc" className="scroll-mt-24">
+      <div id="spkc" className="scroll-mt-56">
         <SectionCard>
           <ImageCarousel images={spkcImages} alt="SP Karate Club" />
           <section className="text-gray-300 space-y-3">

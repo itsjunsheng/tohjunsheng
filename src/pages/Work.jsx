@@ -3,17 +3,18 @@ import ImageCarousel from "../components/ImageCarousel";
 import PortfolioCard from "../components/PortfolioCard";
 import SectionCard from "../components/SectionCard";
 
-import aisg1 from "../assets/work/aisg1.jpg";
-import aisg2 from "../assets/work/aisg2.jpg";
-import aisg3 from "../assets/work/aisg3.jpg";
+import aisg1 from "../assets/work/aisg/aisg1.jpg";
+import aisg2 from "../assets/work/aisg/aisg2.jpg";
+import aisg3 from "../assets/work/aisg/aisg3.jpg";
+import certis1 from "../assets/work/certis/certis1.jpg";
 
 export const Work = () => {
   const aisgImages = [aisg1, aisg2, aisg3];
-  const certisImages = [aisg1]; 
+  const certisImages = [certis1]; 
 
   return (
     <PortfolioCard id="work" title="Work Experiences">
-      {/* Certis CISCO Card */}
+      {/* Certis Card */}
       <SectionCard>
         <ImageCarousel images={certisImages} alt="Certis" />
 

@@ -3,6 +3,8 @@ import about2 from "../assets/about/about2.jpg";
 import about3 from "../assets/about/about3.jpg";
 import about4 from "../assets/about/about4.jpg";
 import about5 from "../assets/about/about5.jpg";
+import about6 from "../assets/about/about6.jpg";
+import about7 from "../assets/about/about7.jpg";
 import CircularGallery from "../components/CircularGallery/CircularGallery";
 import ScrollReveal from "../components/ScrollReveal";
 
@@ -13,6 +15,8 @@ export const About = () => {
     { image: about3, text: "Photo 3" },
     { image: about4, text: "Photo 4" },
     { image: about5, text: "Photo 5" },
+    { image: about6, text: "Photo 5" },
+    { image: about7, text: "Photo 5" },
   ];
 
   return (

@@ -7,7 +7,7 @@ const NAV_LINKS = [
   { id: "education", label: "Education" },
   { id: "cca", label: "CCA" },
   { id: "work", label: "Work" },
-  { id: "projects", label: "Projects" },
+  { id: "project", label: "Project" },
 ];
 
 export const Navbar = () => {
