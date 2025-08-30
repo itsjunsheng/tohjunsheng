@@ -13,12 +13,12 @@ import { Work } from "./pages/Work";
 
 export default function App() {
   return (
-    <div className="relative min-h-screen text-white overflow-hidden bg-gradient-to-b from-black to-blue-950">
-      <SplashCursor />
-
+    <div className="relative min-h-screen overflow-hidden bg-gradient-to-b from-black to-blue-950">
       <Navbar />
       
       <StarryBackground />
+
+      <SplashCursor />
 
       <section id="home" className="scroll">
         <Home />

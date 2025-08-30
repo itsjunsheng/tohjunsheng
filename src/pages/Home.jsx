@@ -35,9 +35,9 @@ export const Home = () => {
       className="relative z-10 p-5 pt-25 lg:p-15 lg:pt-15 max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 items-center"
     >
       {/* Left section */}
-      <div className="text-center lg:text-left lg:pl-10">
+      <div className="text-center text-white lg:text-left lg:pl-10">
         <motion.h1
-          className="text-4xl lg:text-5xl font-bold mb-6"
+          className="text-4xl lg:text-5xl  font-bold mb-6"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.5, delay: 0.5 }}
