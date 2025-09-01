@@ -103,7 +103,7 @@ export const CCA = () => {
               <li>Planned and executed multiple bonding events to foster club cohesion.</li>
               <li>Organised volunteering initiatives with the Muscular Dystrophy Association Singapore (MDAS).</li>
               <li>Ignited the spirit of volunteerism among freshmen and club members.</li>
-              <li>Previously a Programmer (AY 2023/2024), responsible for planning orientation activities.</li>
+              <li>Previously a Programmer (in AY 23/24), responsible for planning orientation activities.</li>
             </ul>
           </section>
         </SectionCard>
@@ -126,9 +126,8 @@ export const CCA = () => {
             </p>
 
             <ul className="list-disc text-sm pl-4 space-y-1">
-              <li>Volunteered monthly with beneficiaries ranging from children to migrant workers and the elderly.</li>
-              <li>Served as a Group Leader for VM’s flagship event, Kid’s World (led a group of 9 volunteers).</li>
-              <li>Joined monthly meetings to plan upcoming Kid’s World activities.</li>
+              <li>Volunteered monthly with various beneficiaries, including children, migrant workers, and the elderly.</li>
+              <li>Served as Group Leader for Kid’s World (VM flagship event), leading 9 volunteers and guiding a group of 10 children.</li>
             </ul>
           </section>
         </SectionCard>
@@ -151,9 +150,9 @@ export const CCA = () => {
             </p>
 
             <ul className="list-disc text-sm pl-4 space-y-1">
-              <li>Took additional SP modules and courses for holistic development.</li>
-              <li>Participated in seminars, workshops, and leadership activities to build knowledge on current affairs.</li>
-              <li>Awarded Certificate of Achievement (Outstanding) at graduation.</li>
+              <li>Undertook specialised SP modules and courses in addition to the regular curriculum.</li>
+              <li>Participated in seminars, workshops, and leadership activities to build knowledge on current affairs and strengthen leadership skills.</li>
+              <li>Awarded Certificate of Achievement (Outstanding) at graduation for exceptional performance.</li>
             </ul>
           </section>
         </SectionCard>
