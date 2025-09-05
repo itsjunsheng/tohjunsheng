@@ -72,8 +72,7 @@ export const CCA = () => {
               <li>Collaborated with WSC Chairpersons to coordinate and support volunteering initiatives.</li>
               <li>Coordinated planning for NTU Open House 2025 for WSC.</li>
               <li>Represented WSC at the Responders, Partners and Volunteers Appreciation (RPVA) Event 2025 by SGSecure, receiving an award on behalf of the club.</li>
-              <li>Participated in multiple leadership and personal development workshops.</li>
-              <li>Joined the Singapore Youth Leader Programme (SYLP) 2025 by NYC (14–16 Jun 2025).</li>
+              <li>Participated actively in multiple leadership and personal development workshops.</li>
               <li>Served as an Election Officer for WSC, overseeing rally campaigns for the 31st ExCo.</li>
             </ul>
           </section>
@@ -99,10 +98,9 @@ export const CCA = () => {
             <ul className="list-disc text-sm pl-4 space-y-1">
               <li>Spearheaded the WSC Freshmen Orientation Programme (one of NTU’s Big 4 camps) on 25–27 Jul 2025 with 240+ freshmen.</li>
               <li>Oversaw a team of 13 IGC ExCo members and 67 Main Committee members.</li>
-              <li>Planned and executed multiple bonding events to foster club cohesion.</li>
-              <li>Organised volunteering initiatives with the Muscular Dystrophy Association Singapore (MDAS).</li>
-              <li>Ignited the spirit of volunteerism among freshmen and club members.</li>
-              <li>Previously a Programmer (in AY 23/24), responsible for planning orientation activities.</li>
+              <li>Planned and executed multiple bonding events throughout the term to strengthen club cohesion.</li>
+              <li>Organised volunteering initiatives with the Muscular Dystrophy Association Singapore.</li>
+              <li>Fostered the spirit of volunteerism among freshmen and club members.</li>
             </ul>
           </section>
         </SectionCard>
@@ -126,6 +124,7 @@ export const CCA = () => {
 
             <ul className="list-disc text-sm pl-4 space-y-1">
               <li>Volunteered monthly with various beneficiaries, including children, migrant workers, and the elderly.</li>
+              <li>Engaged in monthly meetings to discuss and plan upcoming volunteering initiatives.</li>
               <li>Served as Group Leader for Kid’s World (VM flagship event), leading 9 volunteers and guiding a group of 10 children.</li>
             </ul>
           </section>
@@ -174,10 +173,11 @@ export const CCA = () => {
             </p>
 
             <ul className="list-disc text-sm pl-4 space-y-1">
-              <li>Managed club finances, processed reimbursements, and oversaw overall expenses.</li>
-              <li>Actively participated in training sessions and competitions.</li>
-              <li>Assisted in organising club events and activities.</li>
-              <li>Achieved Brown Belt (2 Tip) in 2021.</li>
+              <li>Managed club finances by overseeing budgeting, expense tracking, and fund allocation to support club activities.</li>
+              <li>Managed claims and reimbursements for club activities.</li>
+              <li>Participated actively in Karate training sessions (twice a week) and competitions.</li>
+              <li>Coordinated with club President to plan and organise club activities.</li>
+              <li>Achieved Brown Belt 2 tip (2nd Kyu) in Jan 2021.</li>
             </ul>
           </section>
         </SectionCard>

@@ -67,6 +67,7 @@ export const Education = () => {
             <li>School Scholarship, 2023 – Present</li>
             <li>Open House Student Ambassador, 2024</li>
             <li>College of Computing and Data Science (CCDS) Student Ambassador, 2024 – Present</li>
+            <li>Participated in Singapore Youth Leader Programme (SYLP) 2025 by National Youth Council (NYC), Jun 2025</li>
           </ul>
 
           <p className="font-bold">Clubs & Co-Curricular Activities</p>
@@ -86,7 +87,7 @@ export const Education = () => {
           </h3>
 
           <p className="font-bold">
-            Diploma in Bioengineering (with Merit)
+            Diploma in Bioengineering (Diploma with Merit)
             <br />
             <span className="text-sm font-normal text-gray-400">Apr 2018 – May 2021</span>
           </p>
@@ -96,7 +97,8 @@ export const Education = () => {
             <li>Director's Honour Roll, AY 2019/2020</li>
             <li>Recipient of SP Engineering Show Winner Award, 2021</li>
             <li>Recipient of MAE Final Year Project Exhibition Gold Medal, 2021</li>
-            <li>Diploma with Merit, 2021</li>
+            <li>Participated in SP Student Leadership Programme (LEAP), Sep 2018</li>
+            <li>Participated in Mission X by Youth Corps Singapore (YCS), Oct 2019</li>
           </ul>
 
           <p className="font-bold">Clubs & Co-Curricular Activities</p>
