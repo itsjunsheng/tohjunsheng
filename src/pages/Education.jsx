@@ -5,6 +5,8 @@ import SectionCard from "../components/SectionCard";
 
 import ntu1 from "../assets/education/ntu/ntu1.jpg";
 import ntu2 from "../assets/education/ntu/ntu2.jpg";
+import ntu3 from "../assets/education/ntu/ntu3.jpg";
+import ntu4 from "../assets/education/ntu/ntu4.jpg";
 
 import sp1 from "../assets/education/sp/sp1.jpg";
 import sp2 from "../assets/education/sp/sp2.jpg";
@@ -14,7 +16,7 @@ import sp5 from "../assets/education/sp/sp5.jpg";
 import sp6 from "../assets/education/sp/sp6.jpg";
 
 export const Education = () => {
-  const ntuImages = [ntu1, ntu2];
+  const ntuImages = [ntu1, ntu2, ntu3, ntu4];
   const spImages = [sp1, sp2, sp3, sp4, sp5, sp6];
 
   const scrollTo = (id) => {

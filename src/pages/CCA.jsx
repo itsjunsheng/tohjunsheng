@@ -11,7 +11,6 @@ import wsc5 from "../assets/cca/wsc/wsc5.jpg";
 import wsc6 from "../assets/cca/wsc/wsc6.jpg";
 import wsc7 from "../assets/cca/wsc/wsc7.jpg";
 import wsc8 from "../assets/cca/wsc/wsc8.jpg";
-import wsc9 from "../assets/cca/wsc/wsc9.jpg";
 
 import igc1 from "../assets/cca/igc/igc1.jpg";
 import igc10 from "../assets/cca/igc/igc10.jpg";
@@ -41,15 +40,15 @@ import spkc2 from "../assets/cca/spkc/spkc2.jpg";
 import spkc3 from "../assets/cca/spkc/spkc3.jpg";
 import spkc4 from "../assets/cca/spkc/spkc4.jpg";
 import spkc5 from "../assets/cca/spkc/spkc5.jpg";
-import spkc6 from "../assets/cca/spkc/spkc6.jpg";
+
 import spot1 from "../assets/cca/spot/spot1.jpg";
 
 export const CCA = () => {
-  const wscImages = [wsc1, wsc2, wsc3, wsc4, wsc5, wsc6, wsc7, wsc8, wsc9];
+  const wscImages = [wsc1, wsc2, wsc3, wsc4, wsc5, wsc6, wsc7, wsc8];
   const igcImages = [igc1, igc2, igc3, igc4, igc5, igc6, igc7, igc8, igc9, igc10, igc11, igc12];
   const vmImages = [vm1, vm2, vm3, vm4, vm5, vm6, vm7, vm8, vm9];
   const spotImages = [spot1];
-  const spkcImages = [spkc1, spkc2, spkc3, spkc4, spkc5, spkc6];
+  const spkcImages = [spkc1, spkc2, spkc3, spkc4, spkc5];
 
   return (
     <PortfolioCard id="cca" title="Co-Curricular Activities">

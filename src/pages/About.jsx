@@ -1,22 +1,37 @@
 import about1 from "../assets/about/about1.jpg";
+import about10 from "../assets/about/about10.jpg";
+import about11 from "../assets/about/about11.jpg";
+import about12 from "../assets/about/about12.jpg";
+import about13 from "../assets/about/about13.jpg";
+import about14 from "../assets/about/about14.jpg";
 import about2 from "../assets/about/about2.jpg";
 import about3 from "../assets/about/about3.jpg";
 import about4 from "../assets/about/about4.jpg";
 import about5 from "../assets/about/about5.jpg";
 import about6 from "../assets/about/about6.jpg";
 import about7 from "../assets/about/about7.jpg";
+import about8 from "../assets/about/about8.jpg";
+import about9 from "../assets/about/about9.jpg";
+
 import CircularGallery from "../components/CircularGallery/CircularGallery";
 import ScrollReveal from "../components/ScrollReveal";
 
 export const About = () => {
   const galleryItems = [
-    { image: about1, text: "Photo 1" },
-    { image: about2, text: "Photo 2" },
-    { image: about3, text: "Photo 3" },
-    { image: about4, text: "Photo 4" },
-    { image: about5, text: "Photo 5" },
-    { image: about6, text: "Photo 5" },
-    { image: about7, text: "Photo 5" },
+    { image: about1, text: "" },
+    { image: about2, text: "" },
+    { image: about3, text: "" },
+    { image: about4, text: "" },
+    { image: about5, text: "" },
+    { image: about6, text: "" },
+    { image: about7, text: "" },
+    { image: about8, text: "" },
+    { image: about9, text: "" },
+    { image: about10, text: "" },
+    { image: about11, text: "" },
+    { image: about12, text: "" },
+    { image: about13, text: "" },
+    { image: about14, text: "" },
   ];
 
   return (
