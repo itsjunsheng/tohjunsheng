@@ -1,6 +1,8 @@
 import { GraduationCap } from "lucide-react";
+import { useState } from "react";
 import ElementCard from "../components/ElementCard";
 import ImageCarousel from "../components/ImageCarousel";
+import Modal from "../components/Modal";
 import SectionCard from "../components/SectionCard";
 
 import ntu1 from "../assets/education/ntu/ntu1.jpg";
@@ -16,6 +18,8 @@ import sp5 from "../assets/education/sp/sp5.jpg";
 import sp6 from "../assets/education/sp/sp6.jpg";
 
 export const Education = () => {
+  const [selectedModal, setSelectedModal] = useState(null);
+
   const ntuImages = [ntu1, ntu2, ntu3, ntu4];
   const spImages = [sp1, sp2, sp3, sp4, sp5, sp6];
 
@@ -45,6 +49,14 @@ export const Education = () => {
         {label}
       </button>
     ));
+
+  const modalInfo = {
+    sp: {
+      title: "SP Diploma Certificate",
+      fileSrc: "/sp_certificate.pdf",
+      fileType: "pdf",
+    },
+  };
 
   return (
     <SectionCard id="education" title="Education">
@@ -86,11 +98,19 @@ export const Education = () => {
             Singapore Polytechnic
           </h3>
 
-          <p className="font-bold">
-            Diploma in Bioengineering (Diploma with Merit)
-            <br />
-            <span className="text-sm font-normal text-gray-400">Apr 2018 – May 2021</span>
-          </p>
+          <div className="flex justify-between items-start">
+            <p className="font-bold">
+              Diploma in Bioengineering (with Merit)
+              <br />
+              <span className="text-sm font-medium text-gray-400">Apr 2018 – May 2021</span>
+            </p>
+            <button
+              onClick={() => setSelectedModal("sp")}
+              className="text-sm bg-blue-600 hover:bg-blue-700 text-white px-3 py-1 rounded-full whitespace-nowrap cursor-pointer"
+            >
+              View Certificate
+            </button>
+          </div>
 
           <ul className="list-disc text-sm pl-4">
             <li>Director's Honour Roll, AY 2018/2019</li>
@@ -107,6 +127,18 @@ export const Education = () => {
           </div>
         </section>
       </ElementCard>
+
+      {/* Modal */}
+      {selectedModal && (
+        <Modal
+          isOpen={!!selectedModal}
+          onClose={() => setSelectedModal(null)}
+          title={modalInfo[selectedModal].title}
+          fileSrc={modalInfo[selectedModal].fileSrc}
+          fileType={modalInfo[selectedModal].fileType}
+        />
+      )}
+
     </SectionCard>
   );
 };
