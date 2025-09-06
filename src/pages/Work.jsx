@@ -1,6 +1,6 @@
 import { Briefcase } from "lucide-react";
+import ElementCard from "../components/ElementCard";
 import ImageCarousel from "../components/ImageCarousel";
-import PortfolioCard from "../components/PortfolioCard";
 import SectionCard from "../components/SectionCard";
 
 import aisg1 from "../assets/work/aisg/aisg1.jpg";
@@ -13,9 +13,9 @@ export const Work = () => {
   const certisImages = [certis1]; 
 
   return (
-    <PortfolioCard id="work" title="Work Experiences">
+    <SectionCard id="work" title="Work Experiences">
       {/* Certis Card */}
-      <SectionCard>
+      <ElementCard>
         <ImageCarousel images={certisImages} alt="Certis" />
 
         <section className="text-gray-300 space-y-3">
@@ -37,10 +37,10 @@ export const Work = () => {
             <li>Streamlined and automated work processes using AI and programming.</li>
           </ul>
         </section>
-      </SectionCard>
+      </ElementCard>
 
       {/* AI Singapore Card */}
-      <SectionCard>
+      <ElementCard>
         <ImageCarousel images={aisgImages} alt="AI Singapore" />
 
         <section className="text-gray-300 space-y-3">
@@ -62,8 +62,8 @@ export const Work = () => {
             <li>Participated in agile practices such as sprint planning, reviews, daily stand-ups, and retrospectives to meet project milestones.</li>
           </ul>
         </section>
-      </SectionCard>
-    </PortfolioCard>
+      </ElementCard>
+    </SectionCard>
   );
 };
 

@@ -1,14 +1,25 @@
+import ScrollReveal from "./ScrollReveal";
 
-export default function SectionCard({ children, className = "" }) {
+export default function SectionCard({ id, title, children, className = "" }) {
   return (
-    <div
-      className={`card-shine p-5 bg-gray-900 rounded-2xl border border-gray-800 
-      hover:border-gray-600 hover:bg-gradient-to-br hover:from-gray-900 hover:to-gray-800 
-      transition duration-300 ${className}`}
+    <section
+      id={id}
+      className={`relative z-10 py-20 px-8 lg:px-30 text-white ${className}`}
     >
-      <div className="grid gap-6 lg:grid-cols-[minmax(320px,380px)_1fr] items-start">
-        {children}
-      </div>
-    </div>
+      <ScrollReveal>
+      {/* Title */}
+        <div className="text-3xl lg:text-4xl font-extrabold tracking-wide text-center mb-10">
+          {title}
+        </div>
+      </ScrollReveal>
+
+      
+      <ScrollReveal>
+      {/* Inner Content */}  
+        <div className="space-y-6">
+          {children}
+        </div>
+      </ScrollReveal>
+    </section>
   );
 }

@@ -1,6 +1,6 @@
 import { GraduationCap } from "lucide-react";
+import ElementCard from "../components/ElementCard";
 import ImageCarousel from "../components/ImageCarousel";
-import PortfolioCard from "../components/PortfolioCard";
 import SectionCard from "../components/SectionCard";
 
 import ntu1 from "../assets/education/ntu/ntu1.jpg";
@@ -47,9 +47,9 @@ export const Education = () => {
     ));
 
   return (
-    <PortfolioCard id="education" title="Education">
+    <SectionCard id="education" title="Education">
       {/* NTU card */}
-      <SectionCard>
+      <ElementCard>
         <ImageCarousel images={ntuImages} alt="NTU" />
         <section className="text-gray-300 space-y-3">
           <h3 className="flex items-center gap-2 text-xl font-bold text-blue-600 -mt-2">
@@ -75,10 +75,10 @@ export const Education = () => {
             {renderCcaButtons(ntuCcaLinks)}
           </div>
         </section>
-      </SectionCard>
+      </ElementCard>
 
       {/* SP card */}
-      <SectionCard>
+      <ElementCard>
         <ImageCarousel images={spImages} alt="SP" />
         <section className="text-gray-300 space-y-3">
           <h3 className="flex items-center gap-2 text-xl font-bold text-blue-600 -mt-2">
@@ -106,8 +106,8 @@ export const Education = () => {
             {renderCcaButtons(spCcaLinks)}
           </div>
         </section>
-      </SectionCard>
-    </PortfolioCard>
+      </ElementCard>
+    </SectionCard>
   );
 };
 

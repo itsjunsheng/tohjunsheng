@@ -5,7 +5,7 @@ import { useInView } from "react-intersection-observer";
 export default function ScrollReveal({ children, className = "" }) {
   const controls = useAnimation();
   const { ref, inView } = useInView({
-    threshold: 0.1,
+    threshold: 0, // Trigger as soon as a part is visible
     triggerOnce: false,
   });
 
@@ -22,8 +22,8 @@ export default function ScrollReveal({ children, className = "" }) {
       opacity: 1,
       y: 0,
       transition: {
-        duration: 0.75, 
-        ease: [0.25, 0.1, 0.25, 1], // Smooth cubic-bezier
+        duration: 0.8, 
+        ease: [0.25, 0.1, 0.25, 1], // Standard smooth ease-in-out
       },
     },
   };

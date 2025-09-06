@@ -1,5 +1,5 @@
 import { ExternalLink, Github } from "lucide-react";
-import PortfolioCard from "../components/PortfolioCard";
+import SectionCard from "../components/SectionCard";
 
 import onlyfoodsImage from "../assets/project/onlyfoods.jpg";
 import owadioImage from "../assets/project/owadio.jpg";
@@ -37,7 +37,7 @@ export const Project = () => {
   ];
 
   return (
-    <PortfolioCard id="project" title="Personal Projects">
+    <SectionCard id="project" title="Personal Projects">
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((project, index) => (
           <div
@@ -95,7 +95,7 @@ export const Project = () => {
           </div>
         ))}
       </div>
-    </PortfolioCard>
+    </SectionCard>
   );
 };
 

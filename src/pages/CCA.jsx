@@ -1,6 +1,6 @@
 import { Users } from "lucide-react";
+import ElementCard from "../components/ElementCard";
 import ImageCarousel from "../components/ImageCarousel";
-import PortfolioCard from "../components/PortfolioCard";
 import SectionCard from "../components/SectionCard";
 
 import wsc1 from "../assets/cca/wsc/wsc1.jpg";
@@ -51,10 +51,10 @@ export const CCA = () => {
   const spkcImages = [spkc1, spkc2, spkc3, spkc4, spkc5];
 
   return (
-    <PortfolioCard id="cca" title="Co-Curricular Activities">
+    <SectionCard id="cca" title="Co-Curricular Activities">
       {/* WSC EXCO card */}
       <div id="wsc" className="scroll-mt-56">
-        <SectionCard>
+        <ElementCard>
           <ImageCarousel images={wscImages} alt="Welfare Services Club Executive Committee" />
           <section className="text-gray-300 space-y-3">
             <h3 className="flex items-center gap-2 text-xl font-bold text-blue-600 -mt-2">
@@ -76,12 +76,12 @@ export const CCA = () => {
               <li>Served as an Election Officer for WSC, overseeing rally campaigns for the 31st ExCo.</li>
             </ul>
           </section>
-        </SectionCard>
+        </ElementCard>
       </div>
 
       {/* WSC IGC card */}
       <div id="igc" className="scroll-mt-56">
-        <SectionCard>
+        <ElementCard>
           <ImageCarousel images={igcImages} alt="Ignite Change" />
           <section className="text-gray-300 space-y-3">
             <h3 className="flex items-center gap-2 text-xl font-bold text-blue-600 -mt-2">
@@ -103,12 +103,12 @@ export const CCA = () => {
               <li>Fostered the spirit of volunteerism among freshmen and club members.</li>
             </ul>
           </section>
-        </SectionCard>
+        </ElementCard>
       </div>
 
       {/* WSC VM card */}
       <div id="vm" className="scroll-mt-56">
-        <SectionCard>
+        <ElementCard>
           <ImageCarousel images={vmImages} alt="Volunteer Movement" />
           <section className="text-gray-300 space-y-3">
             <h3 className="flex items-center gap-2 text-xl font-bold text-blue-600 -mt-2">
@@ -128,12 +128,12 @@ export const CCA = () => {
               <li>Served as Group Leader for Kid’s World (VM flagship event), leading 9 volunteers and guiding a group of 10 children.</li>
             </ul>
           </section>
-        </SectionCard>
+        </ElementCard>
       </div>
 
       {/* SPOT Programme card */}
       <div id="spot" className="scroll-mt-56">
-        <SectionCard>
+        <ElementCard>
           <ImageCarousel images={spotImages} alt="SP Outstanding Talent Programme" />
           <section className="text-gray-300 space-y-3">
             <h3 className="flex items-center gap-2 text-xl font-bold text-blue-600 -mt-2">
@@ -153,12 +153,12 @@ export const CCA = () => {
               <li>Awarded Certificate of Achievement (Outstanding) at graduation for exceptional performance.</li>
             </ul>
           </section>
-        </SectionCard>
+        </ElementCard>
       </div>
 
       {/* SP Karate card */}
       <div id="spkc" className="scroll-mt-56">
-        <SectionCard>
+        <ElementCard>
           <ImageCarousel images={spkcImages} alt="SP Karate Club" />
           <section className="text-gray-300 space-y-3">
             <h3 className="flex items-center gap-2 text-xl font-bold text-blue-600 -mt-2">
@@ -180,9 +180,9 @@ export const CCA = () => {
               <li>Achieved Brown Belt 2 tip (2nd Kyu) in Jan 2021.</li>
             </ul>
           </section>
-        </SectionCard>
+        </ElementCard>
       </div>
-    </PortfolioCard>
+    </SectionCard>
   );
 };
 
