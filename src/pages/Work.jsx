@@ -34,7 +34,7 @@ export const Work = () => {
             <li>Supported the AI Community of Practice by assisting AI Citizen Developer groups with up to 20 active projects in consultation with the AI Development Group (ADG).</li>
             <li>Consolidated issues and facilitated consultation sessions between citizen developers and ADG.</li>
             <li>Curated learning resources for the Centre for AI and Technology Systems.</li>
-            <li>Streamlined and automated work processes using AI and programming.</li>
+            <li>Developed Python scripts to automate repetitive tasks, reducing manual effort and streamlining workflows.</li>
           </ul>
         </section>
       </ElementCard>

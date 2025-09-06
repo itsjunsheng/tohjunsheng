@@ -82,7 +82,7 @@ export const Home = () => {
         {/* Button */}
         <motion.button
           type="button"
-          onClick={() => scrollTo("project")}
+          onClick={() => scrollTo("work")}
           className="px-5 py-3 font-semibold text-white bg-blue-600 rounded-full hover:bg-blue-700 hover:shadow-lg cursor-pointer"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
