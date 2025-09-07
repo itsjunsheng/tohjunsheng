@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next";
 import { Navbar } from "./components/NavBar";
 import SplashCursor from "./components/SplashCursor/SplashCursor";
 import { StarryBackground } from "./components/StarryBackground";
@@ -13,6 +14,7 @@ import { Work } from "./pages/Work";
 export default function App() {
   return (
     <div className="relative min-h-screen overflow-hidden bg-gradient-to-b from-black to-blue-950">
+      <Analytics />
       <Navbar />
       <StarryBackground />
       <SplashCursor />
