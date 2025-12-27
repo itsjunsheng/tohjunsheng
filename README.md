@@ -1,5 +1,13 @@
-# Peronal Portfolio Website
+# Personal Portfolio Website
 
-Hello! I'm Jun Sheng
-<br><br>
-I'm currently a 3rd year undergraduate pursuing a Bachelor of Computing in Data Science and Artificial Intelligence at Nanyang Technological University (NTU). I have a strong passion for Artificial Intelligence (AI), Web Development and Entrepreneurship. I enjoy exploring new technologies and bringing innovative ideas to reality. Do contact me for collaboration or opportunies! :D
+Hello! I'm **Jun Sheng**
+
+This repository contains the source code for my **portfolio webpage**, where I showcase my education, CCAs, work experiences and personal projects. I enjoy exploring new technologies and turning innovative ideas into real-world applications. Feel free to reach out for collaboration or opportunities and I'd be happy to connect! 😊
+
+### 🌐 Live Website
+- https://tohjunsheng.vercel.app/
+
+### 📫 Contact
+- GitHub: [@itsjunsheng](https://github.com/itsjunsheng)
+- Email: itsjunsheng@gmail.com
+- LinkedIn: https://www.linkedin.com/in/tohjunsheng/
