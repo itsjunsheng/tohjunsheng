@@ -1,6 +1,5 @@
 import { Analytics } from "@vercel/analytics/react";
 import { Navbar } from "./components/NavBar";
-import SplashCursor from "./components/SplashCursor/SplashCursor";
 import { StarryBackground } from "./components/StarryBackground";
 
 import { About } from "./pages/About";
@@ -17,7 +16,6 @@ export default function App() {
       <Analytics />
       <Navbar />
       <StarryBackground />
-      <SplashCursor />
 
       {/* Sections */}
       <section id="home">

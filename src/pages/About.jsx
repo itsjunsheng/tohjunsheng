@@ -46,9 +46,9 @@ export const About = () => {
                 About Me
               </h2>
               <p className="text-gray-300 text-md leading-relaxed mb-6">
-                I'm currently a 3rd year undergraduate pursuing a Bachelor of Computing in Data Science and Artificial Intelligence at Nanyang Technological University (NTU), Singapore. 
-                I have a strong passion for Artificial Intelligence (AI) and Web Development, and using AI to solve real-world problems. 
-                In my free time, I enjoy building modern websites and web applications. Always excited to explore new opportunities and working on the latest technologies.
+                I'm currently a 3rd year undergraduate pursuing a Bachelor of Computing in <strong>Data Science and Artificial Intelligence</strong> at 
+                Nanyang Technological University (NTU). I have a strong passion for Artificial Intelligence (AI), Web Development and Entrepreneurship. 
+                I enjoy exploring new technologies and working on projects that solve real-world problems while continuously learning and improving myself.
               </p>
               <div className="flex flex-wrap gap-2">
                 {[

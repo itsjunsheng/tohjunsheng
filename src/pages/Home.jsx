@@ -47,9 +47,9 @@ export const Home = () => {
         </motion.h1>
 
         <TextType
-          className="text-lg text-gray-300 min-h-[120px] mb-6"
+          className="text-lg text-gray-300 min-h-[120px]"
           text={[
-            `I do Web Applications, Data Analytics, AI & Machine Learning. I also teach Elementary Math for Primary & Secondary School Students. Do contact me for collaboration or hiring! :)`,
+            `I enjoy doing Web Applications, Data Analytics, AI and Machine Learning. Feel free to reach out for collaboration or opportunities! :)`,
           ]}
           typingSpeed={10}
           pauseDuration={1500}
@@ -100,9 +100,9 @@ export const Home = () => {
         transition={{ duration: 1, delay: 1.5, ease: "easeOut" }}
       >
         <ProfileCard
-          className="scale-[0.70]"
+          className="scale-[0.65]"
           name="Toh Jun Sheng"
-          title=" "
+          title=""
           handle="itsjunsheng"
           status="Online"
           contactText="Contact Me"
@@ -110,9 +110,7 @@ export const Home = () => {
           showUserInfo={false}
           enableTilt={true}
           enableMobileTilt={false}
-          onContactClick={() =>
-            (window.location.href = "mailto:itsjunsheng@gmail.com")
-          }
+          onContactClick={() => console.log('Contact clicked')}
         />
       </motion.div>
     </section>

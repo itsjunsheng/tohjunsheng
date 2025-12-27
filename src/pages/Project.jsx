@@ -21,7 +21,7 @@ export const Project = () => {
       description:
         "A web app for Full-time National Servicemen (NSFs) and Pre-Enlistees to track countdowns to their ORD or Enlistment dates.",
       tech: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/jxxsheng/owadio",
+      github: "https://github.com/itsjunsheng/owadio",
       live: "https://owadio.com",
       image: owadioImage,
     },
